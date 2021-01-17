@@ -55,11 +55,9 @@
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
-    font-family: 'Balsamic Sans', 'Arial Black';
 }
-
 #calculate {
-    width: 100%;
+    width: 96%;
     letter-spacing: 8px;
     text-transform: uppercase;
     font-weight: bold;
@@ -80,8 +78,13 @@
     font-size: medium;
 }
 
+.key:active {
+    outline: none;
+    box-shadow: 1px 0px 3px rgb(126, 153, 126);    
+}
+
 .key:focus {
-    box-shadow: 3px 0px 1px rgb(126, 153, 126);    
+    outline: none;  
 }
 
 .number {
