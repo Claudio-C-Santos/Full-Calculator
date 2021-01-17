@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #calculator {
     margin: auto;
-    width: 30%;
+    width: 425px;
     height: auto;
     background-color:rgb(85, 85, 85);
     border: 2px solid black;
@@ -26,10 +37,12 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    background-color: rgb(22, 22, 22);  
+    background-color: black;  
     box-shadow: 0px 0px 20px rgb(17, 17, 17);
-    border-radius: 25px;
     text-align: right;
+    color: white;
+    line-height: 75px;
+    font-size: 4rem;
 }
 
 #keysArea {
@@ -39,12 +52,34 @@
 }
 
 .key {
-    flex: 0 0 32%;
-    margin: 5px auto;
+    width: 22%;
+    margin: 10px 5px;
     display: inline-block;
     height: 50px;
     border: 1px solid gray;
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
     line-height: 50px;
+    box-shadow: 0px 3px 1px rgb(126, 153, 126);
+    font-family: 'Balsamic Sans', 'Arial Black';
+    font-size: medium;
+}
+
+.key:focus {
+    box-shadow: 3px 0px 1px rgb(126, 153, 126);    
+}
+
+.number {
+    color: white;
+    background-color: rgb(0, 27, 0);
+}
+
+.operator {
+    background-color: rgb(196, 127, 0);
+    color: white;
+}
+
+.other {
+    background-color: rgb(219, 0, 0);
+    color: white;
 }
