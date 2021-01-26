@@ -23,7 +23,7 @@
     margin: 15px;
     height: 100px;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: black;
 }
 
@@ -40,11 +40,6 @@
     background-color: black;  
     box-shadow: 0px 0px 20px rgb(17, 17, 17);
     text-align: right;
-
-}
-
-#calcChar {
-    margin: 0;
     color: white;
     font-size: 3rem;
     font-family: 'Balsamic Sans', 'Arial Black';
