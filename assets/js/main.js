@@ -120,6 +120,8 @@ keys.addEventListener('click', function(event) {
 
 
 
+
+
 /*
 //Button clicked => Concatenate value to variable "expression"
 //Calculate button pressed run calculateResult()
